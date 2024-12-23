@@ -11,3 +11,11 @@
 # Ignore Docker-related files (optional)
 *.log
 *.pid
+
+dotnet_project/drive/.system/instance_id
+dotnet_project/drive/.system/instance_id
+dotnet_project/mongodb_data_container/collection-2-9068796906117093270.wt
+dotnet_project/mongodb_data_container/sizeStorer.wt
+dotnet_project/mongodb_data_container/WiredTiger.turtle
+dotnet_project/mongodb_data_container/WiredTiger.wt
+dotnet_project/mongodb_data_container/sizeStorer.wt
