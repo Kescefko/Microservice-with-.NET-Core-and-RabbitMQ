@@ -23,7 +23,7 @@ spec:
       volumes:
         - name: mongodb-storage
           hostPath:
-            path: ./mongodb_data_container
+            path: /data/mongodb  # Use an absolute path
             type: Directory
 
 ---
