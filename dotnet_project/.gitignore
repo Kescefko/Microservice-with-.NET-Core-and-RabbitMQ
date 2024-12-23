@@ -1,0 +1,9 @@
+# Ignore the SQL Server data volume
+/drive/
+
+# Ignore the MongoDB data volume
+/mongodb_data_container/
+
+# Ignore Docker-related files (optional)
+*.log
+*.pid
