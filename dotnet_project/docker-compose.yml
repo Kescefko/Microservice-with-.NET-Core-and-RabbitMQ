@@ -10,6 +10,7 @@ services:
     restart: always
     volumes:
       - './drive:/var/opt/mssql'
+    user: "root"  # Run as root to avoid permission issues
   mongodb_container:
     image: mongo:latest
     ports:
