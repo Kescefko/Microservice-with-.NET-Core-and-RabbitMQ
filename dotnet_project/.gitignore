@@ -4,6 +4,10 @@
 # Ignore the MongoDB data volume
 /mongodb_data_container/
 
+# Ignore SQL Server log and data files
+/dotnet_project/drive/log/
+/dotnet_project/drive/
+
 # Ignore Docker-related files (optional)
 *.log
 *.pid
